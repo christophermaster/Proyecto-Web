@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scal">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/estilos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header class="menu">
+        <input id="toggle" type="checkbox" />
+        <label for="toggle" class="drop">
+            <svg width="20px" height="20px" viewBox="0 0 48 48">
+                <path d="M6 36h36v-4H6v4zm0-10h36v-4H6v4zm0-14v4h36v-4H6z"></path>
+            </svg>
+        </label>
+        <nav>
+            <a href="index.html">Facturar</a>
+            <a href="listaFactura.html">Lista de Factura</a>
+        </nav>
+
+    </header>
+
+    <br><br>
+
+    <div class="caja">
+
+        <div class="nivel">
+            <div class="extra-pequeño-4 pequeno-4 medio-4 grande-4 centro">
+                Factura
+            </div>
+            <div class="extra-pequeño-4 pequeno-4 medio-4 grande-4 centro">
+                Nº 123
+            </div>
+            <div class="extra-pequeño-4 pequeno-4 medio-4 grande-4 centro">
+                24/09/2018
+            </div>
+
+        </div>
+
+        <hr>
+
+        <form class="cuadrado">
+            <div class="formularioNivel">
+                <div class="grupoFormulario medio-4">
+                    <label for="inputEmail4">Nombre</label>
+                    <input type="email" class="formularioPrincipal" id="inputEmail4" placeholder="Nombre">
+                </div>
+                <div class="grupoFormulario medio-4">
+                    <label for="inputPassword4">Apellido</label>
+                    <input type="text" class="formularioPrincipal" id="inputPassword4" placeholder="Apellido">
+                </div>
+                <div class="grupoFormulario medio-4">
+                    <label for="inputAddress">Cedula</label>
+                    <input type="number" class="formularioPrincipal" id="inputAddress" placeholder="1234567">
+                </div>
+            </div>
+        </form>
+
+
+        <div class="tabla-responsive class_div">
+            <table class="tabla table-wrapper-scroll-y">
+                <thead>
+                    <th>#</th>
+                    <th>Concepto</th>
+                    <th>Cantidad</th>
+                    <th>Precio Unitario</th>
+                    <th>Precio Total</th>
+                    <th>12%IVA</th>
+                    <th>Precio Total + 12%IVA</th>
+                    <th>Acción</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Reparacion MoTor</td>
+                        <td>1</td>
+                        <td>250.000 BsS</td>
+                        <td>250.000 BsS</td>
+                        <td>30.000 BsS</td>
+                        <td>280.000 BsS</td>
+                        <td>
+                            <a href="#" class="myButton">Editar</a>
+                            <a href="#" class="myButton">Eliminar</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Reparacion pintura</td>
+                        <td>1</td>
+                        <td>250.000 BsS</td>
+                        <td>250.000 BsS</td>
+                        <td>30.000 BsS</td>
+                        <td>280.000 BsS</td>
+                        <td>
+                            <a href="#" class="myButton">Editar</a>
+                            <a href="#" class="myButton">Eliminar</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Reparacion Frenos</td>
+                        <td>4</td>
+                        <td>50.000 BsS</td>
+                        <td>200.000 BsS</td>
+                        <td>24.000 BsS</td>
+                        <td>224.000 BsS</td>
+                        <td>
+                            <a href="#" class="myButton">Editar</a>
+                            <a href="#" class="myButton">Eliminar</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Producto Ruedas</td>
+                        <td>4</td>
+                        <td>20.000 BsS</td>
+                        <td>80.000 BsS</td>
+                        <td>9.600 BsS</td>
+                        <td>89.600 BsS</td>
+                        <td>
+                            <a href="#" class="myButton">Editar</a>
+                            <a href="#" class="myButton">Eliminar</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Cambio de Aceite</td>
+                        <td>1</td>
+                        <td>10.000 BsS</td>
+                        <td>10.000 BsS</td>
+                        <td>1.200 BsS</td>
+                        <td>11.200 BsS</td>
+                        <td>
+                            <a href="#" class="myButton">Editar</a>
+                            <a href="#" class="myButton">Eliminar</a>
+                        </td>
+                    </tr>
+
+                </tbody>
+                <thead>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th>Sub Total</th>
+                    <th>Impuesto</th>
+                    <th>Total a Cobrar</th>
+                    <th></th>
+                </thead>
+                <thead>
+                    <th>Total</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th>790.000 BsS</th>
+                    <th>94.800 BsS</th>
+                    <th>884.800 BsS</th>
+                    <th></th>
+                </thead>
+            </table>
+        </div>
+
+        <form class="cuadrado">
+            <div class="formularioNivel">
+                <div class="grupoFormulario medio-6">
+                    <label for="inputEmail4">Concepto</label>
+                    <input type="email" class="formularioPrincipal" id="inputEmail4" placeholder="Nombre">
+                </div>
+                <div class="grupoFormulario medio-6">
+                    <label for="inputPassword4">Cantidad</label>
+                    <input type="number" class="formularioPrincipal" id="inputPassword4" placeholder="Apellido">
+                </div>
+
+            </div>
+            <div class="formularioNivel">
+                <div class="grupoFormulario medio-6">
+                    <label for="inputAddress">Precio Unitario</label>
+                    <input type="number" class="formularioPrincipal" id="inputAddress" placeholder="0.00 BsS">
+                </div>
+                <div class="grupoFormulario medio-6">
+                    <label for="inputAddress">Precio Total</label>
+                    <input type="number" class="formularioPrincipal" id="inputAddress" placeholder="0.00 BsS" disabled>
+                </div>
+
+            </div>
+            <div class="formularioNivel button">
+                <div class="grupoFormulario medio-12">
+                    <a href="#" class="insertar">Insertar</a>
+                </div>
+            </div>
+        </form>
+    </div>
+    <br><br><br>
+    <div class="caja">
+        <div class="nivel ce">
+
+            <div class=" medio-4 centro">
+                <a href="listaFactura.html" class="insertar">Guardar-Imprimir</a>
+            </div>
+
+            <div class=" medio-4 centro">
+                <a href="index.html" class="insertar">Cancelar</a>
+            </div>
+
+
+            <div class="medio-4 centro">
+                <a href="listaFactura.html" class="insertar">Guarar-No Imprimir</a>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
